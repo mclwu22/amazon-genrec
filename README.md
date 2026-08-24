@@ -13,9 +13,6 @@ Everything runs on a **single workstation** (32-core CPU / 251 GB RAM / one RTX 
 no cluster, no cloud. Sizing the 40 GB working set against 251 GB RAM, a multi-node cluster
 would only add shuffle overhead, so Spark runs in **local mode** on purpose.
 
-> ⚠️ **Paths are hardcoded to the author's environment** (`/data/yizhou/...`). This repo is
-> the real, reproducible artifact that produced the numbers below; to re-run, edit the paths
-> at the top of each script (or the constants in `spark/spark_common.py`) for your machine.
 
 ---
 
