@@ -1,0 +1,22 @@
+  ep  1 loss=3.6292 (999s)
+  ep  2 loss=2.9215 (999s)  | valid R@10=0.0060 N@10=0.0032 *best*
+  ep  3 loss=2.7733 (998s)
+  ep  4 loss=2.6998 (998s)  | valid R@10=0.0090 N@10=0.0047 *best*
+  ep  5 loss=2.6537 (998s)  || TEST R@10=0.0066 N@10=0.0036
+  ep  6 loss=2.6205 (998s)  | valid R@10=0.0060 N@10=0.0042
+  ep  7 loss=2.5946 (998s)
+  ep  8 loss=2.5732 (998s)  | valid R@10=0.0105 N@10=0.0066 *best*
+  ep  9 loss=2.5546 (998s)
+  ep 10 loss=2.5382 (998s)  | valid R@10=0.0125 N@10=0.0080 *best*  || TEST R@10=0.0087 N@10=0.0046
+  ep 11 loss=2.5232 (998s)
+  ep 12 loss=2.5101 (998s)  | valid R@10=0.0110 N@10=0.0073
+  ep 13 loss=2.4978 (998s)
+  ep 14 loss=2.4869 (998s)  | valid R@10=0.0120 N@10=0.0084
+  ep 15 loss=2.4777 (998s)  || TEST R@10=0.0100 N@10=0.0053
+  ep 16 loss=2.4695 (998s)  | valid R@10=0.0135 N@10=0.0089 *best*
+  ep 17 loss=2.4634 (998s)
+  ep 18 loss=2.4589 (998s)  | valid R@10=0.0140 N@10=0.0087 *best*
+  ep 19 loss=2.4558 (998s)
+  ep 20 loss=2.4546 (998s)  | valid R@10=0.0135 N@10=0.0085  || TEST R@10=0.0101 N@10=0.0055
+[train] FINAL TEST  Recall@10=0.0101  NDCG@10=0.0055  (on 20,000 users)  best_valid_R=0.0140
+[train] DONE (20476s)

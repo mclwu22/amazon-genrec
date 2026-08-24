@@ -1,0 +1,29 @@
+# data & artifacts (too large / regenerable — never commit)
+*.parquet
+*.jsonl
+*.npy
+*.pt
+*.gz
+raw/
+data/
+output/
+checkpoints/
+semantic_ids/
+spark-tmp/
+logs/
+!docs/tiger_training_curve.log
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+miniconda/
+envs/
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
