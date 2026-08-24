@@ -13,6 +13,10 @@ Everything runs on a **single workstation** (32-core CPU / 251 GB RAM / one RTX 
 no cluster, no cloud. Sizing the 40 GB working set against 251 GB RAM, a multi-node cluster
 would only add shuffle overhead, so Spark runs in **local mode** on purpose.
 
+> Heads-up — this is a personal practice project (a hands-on extension of my **ECE8803
+> Conversational AI** coursework), built and run on my own workstation. Paths are hardcoded
+> to `/data/yizhou/...`; to re-run elsewhere, just edit the paths at the top of each script.
+> It's a learning artifact, not a polished library.
 
 ---
 
